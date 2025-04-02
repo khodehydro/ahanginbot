@@ -5,9 +5,9 @@ from aiogram.utils import executor
 from flask import Flask
 from threading import Thread
 
-TOKEN = "7748115855:AAH0Hoj3mxbYocJHVKJVfUN3n7XOmvxeeEo"
-CHANNEL_1 = "@ahanginapp"  # آیدی کانال اول
-CHANNEL_2 = "@realbluepassion"  # آیدی کانال دوم
+TOKEN = "YOUR_BOT_TOKEN"
+CHANNEL_1 = "@YourChannel1"  # آیدی کانال اول
+CHANNEL_2 = "@YourChannel2"  # آیدی کانال دوم
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
